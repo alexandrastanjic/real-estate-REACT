@@ -1,0 +1,49 @@
+.header {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4a261;
+  
+}
+
+.header nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10rem;
+ 
+}
+
+.header ul {
+  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header li {
+  margin-left: 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgba(38, 70, 83, 0.7)
+}
+
+.header a:highlighted {
+  color: #fff;
+}
+
+.logo {
+  width: 30%;
+  font-size: 2rem;
+  color:#264653;
+  font-weight: bold;
+  padding: 0 10rem;
+}
